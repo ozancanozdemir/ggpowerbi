@@ -1,7 +1,7 @@
 #' Calling the necessary font family.
 #'
 call_d_din_font<-function(){
-  extrafont::fonts()
+  library(extrafont)
 }
 #' PowerBI Theme for ggplot2
 #'
