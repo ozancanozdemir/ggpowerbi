@@ -54,3 +54,4 @@ theme_powerbi_color()
 ```
 ![ ](https://github.com/ozancanozdemir/ggpowerbi/blob/main/bar_powerbi.PNG)
 
+For any ideas or questions ozancan@metu.edu.tr or [@OzancanOzdemir](https://twitter.com/OzancanOzdemir)
