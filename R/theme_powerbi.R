@@ -1,3 +1,11 @@
+#' Importing the package after putting fonts
+
+
+import_d_din_font<-function(user){
+  extrafont::font_import(paths = "C:/Users/{{user}}/AppData/Local/Microsoft/Windows/Fonts")
+  extrafont::loadfonts(device = "win")
+}
+
 #' Calling the necessary font family.
 #'
 call_d_din_font<-function(){
