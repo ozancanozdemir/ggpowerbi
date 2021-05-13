@@ -1,0 +1,7 @@
+Package: ggpowerbi
+Type: Package
+Title: A PowerBI theme for a ggplot2 graphics
+Version: 0.1.0
+Author: Ozancan Ozdemir
+Encoding: UTF-8
+LazyData: true
