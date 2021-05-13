@@ -9,7 +9,6 @@ A package that provides a PowerBI appearence for a ggplot2 object.
 ```
 # install.packages("remotes")
 remotes::install_github("ozancanozdemir/ggpowerbi")
-
 ```
 
 # Importing Font
@@ -53,5 +52,5 @@ theme_powerbi_color()
 > ggplot(d,aes(x=cyl,y=y,fill=cyl))+geom_bar(stat="identity")+labs(title="Bar Plot of Cyl",x="Cyl",y="Frequency")+theme_powerbi()+
 + scale_fill_manual(values=theme_powerbi_color())
 ```
-
+![](https://github.com/ozancanozdemir/ggpowerbi/blob/main/bar_powerbi.png)
 
