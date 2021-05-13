@@ -1,3 +1,8 @@
+#' Calling the necessary font family.
+#'
+call_d_din_font<-function(){
+  extrafont::fonts()
+}
 #' PowerBI Theme for ggplot2
 #'
 #' Produces a ggplot2 graphics looking like power BI plot.
