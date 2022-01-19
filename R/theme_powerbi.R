@@ -2,9 +2,13 @@
 
 
 import_d_din_font<-function(user){
-  extrafont::font_import(paths = "C:/Users/{{user}}/AppData/Local/Microsoft/Windows/Fonts")
+  part1 = paste("C:/Users/",user)
+  part2 = paste(part1,"/AppData/Local/Microsoft/Windows/Fonts")
+  path = gsub(" ", "", part2, fixed = TRUE)
+  extrafont::font_import(paths =path)
   extrafont::loadfonts(device = "win")
 }
+
 
 #' Calling the necessary font family.
 #'
