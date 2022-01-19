@@ -1,5 +1,8 @@
 # ggpowerbi
 
+<img src="https://github.com/ozancanozdemir/ggpowerbi/blob/main/logo_bi.png" width="300" height="350">
+
+
 A package that provides a PowerBI appearence for a ggplot2 object. 
 
 **Note:** In order to use this package efficiently, you have to have ```D-DIN.tff``` (DIN font family) in your Fonts folder. You can download .tff files from [here](https://www.1001fonts.com/download/d-din.zip)
